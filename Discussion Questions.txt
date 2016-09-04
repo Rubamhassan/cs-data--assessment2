@@ -1,0 +1,61 @@
+Recursion
+1.Recursion is when a function is within a function and calls itself.
+2.A base case is needed so we know when the function ends or is done running.
+Graphs
+1.Graphs are like trees except they have have loops and can have directed relationships or non directed.
+2.Graphs are used to model relationships between things and can have directed and non directed relationships.
+ Trees only have directed relationships and all trees are graphs, tress also have hierarchy.
+3. example of graphs: friends on facebook or connections on linkedin.
+
+Performance of Different Data Structures
+Python List add L : O(n) because adding to the left means you have to shift over every item in the list and it depends on how many itmes in the list.
+
+Python List pop L: O(n) because we still need to shift everything down by one index and not sure how many items in list. Just like the aboce add to L.
+
+Python List Pop R:O(1) because we can just go straight to that index and remove it without doing anything else to the list, so no need to shift anything.
+
+Linked List Index : O(n) because we have to start from the first item and count all the way to the last item.
+
+Linked List Search: O(n) because we have to go through every item of the list till we get to the item we are looking for and it depends on how long the list could be.
+
+Linked List add-R: O(1) because we just go straight to the tail add a next to that and make the new item the tail. No need to go through the whole list. 
+
+Linked List add L: O(1) Becasue we just go straight to the head and make the new node the head and then point next node to the original head node. 
+
+Linked List pop L:O(1) Just go straight to the head and pop that one off and set the head to the node that was connected to that. 
+
+Linked List pop R:O(n) because we have to go through the whole list to find the tail and reassign the one prior to tail to now become the tail and pop off the tail. 
+
+Doubly-Linked List index:O(n) because you still have to go through the whole list to find the index of it. 
+
+Doubly-Linked List search:O(n) becasue you might still have to go through the whole list and check each item to find what your searching for. 
+
+Doubly-Linked List add R: O(1) just like LL go straight to the tail and add one node.
+
+Doubly-Linked List add L: O(1) just like LL go straight to the head and add one node to become the head.
+
+Doubly-Linked List pop L:O(1) just like LL go straight to the head to pop one off and reassign the head.
+
+Doubly-Linked List pop R:O(1) because we are keeping track of node.prev look at tail.prev, reassign tail to tail.prev and reassign tail.next to None
+
+Queue add R:O(1) because we already know the length and just need to add one to the end and update the list. 
+
+Queue pop L:O(n) because we have to shift every single item in the list after we pop off from the left.
+
+Stack add R:O(1) because we just go straight to the end and add one.
+
+Stack pop R:O(1) because we just go straight to end and pop one off. 
+
+Fill in Runtime and Memory:
+Set-Get:O(1) Add:O(1) Delete:O(1) Iterate:O(n) Memory:Medium
+Binary Search Tree- Get:O(log n) Add:O(1) Delete:O(1) Iterate:O(1) Memory:little memory
+Trees- Get:O(n) Add:O(1) Delete:O(1) Iterate:O(1) Memory:little memory 
+
+Sorting:
+1.To go through the whole list two items at a time and flipping them based on how we are sorting them. We do it as many times as needed till the whole list is sorted.
+2.Go through the list of items and recursively break them down till we get down to a list of only one item and Then the items are merged together based on which items/numbers are higher.
+3.By choosing a random pivot all the items on the left of the pivot are sorted and moved around and the items on the right of the pivot are sorted. continue moving items around untill they are sorted. 
+
+Git Branching:
+1.I would use git branching if I wanted to make edits to my final project after code freeze has been done. Just to be able to work on something on the side without it changing anything in my project that I plan on using for career day. 
+2.Pull Request: when you want to push code to a github account that is not users and you ask the owner to pull in your code or what you would like to push to that repository. 
